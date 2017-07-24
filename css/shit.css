@@ -1,0 +1,167 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+html {
+    min-height: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    overflow: hidden;
+    font-family: arial, verdana, sans-serif;
+    background-color: #ffffff;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10%;
+}
+
+
+/*body > .container {
+    padding: 3em, 1.5em, 0;
+}*/
+
+code {
+    font-size: 80%;
+}
+
+.navbar-custom {
+    background: rgba(220, 220, 220, 0.5);
+    padding: 0px;
+    font-size: 2em;
+    /*max-height: 86%;*/
+    /*border-bottom: 1px solid #c3c3c3 !important;*/
+    border-top: 1px groove #969696;
+    margin: 0px;
+    padding: 0px 0px 0px 0em;
+    font-size: 1.3em;
+    color: #51183f;
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+.navbar-custom .navbar-nav>li>a {
+    color: #51183f;
+}
+
+.navbar-custom .navbar-nav>.active>a {
+    color: #800080;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-nav>li>a:hover, .navbar-custom .navbar-nav>li>a:focus, .navbar-custom .navbar-nav>.active>a:hover, .navbar-custom .navbar-nav>.active>a:focus, .navbar-custom .navbar-nav>.open>a {
+    text-decoration: none;
+    color: #800080;
+}
+
+.navbar-custom .navbar-brand {
+    color: #51183f;
+    font-size: 2.5em;
+}
+
+.navbar-custom .navbar-toggle {
+    background-color: transparent;
+}
+
+.navbar-custom .icon-bar {
+    background-color: #51183f;
+}
+
+#content {
+    box-shadow: 0px 0px 100px 120px #FFF inset;
+    /*margin: auto;*/
+    height: 89%;
+    width: 100%;
+    position: absolute;
+    background-image: url(../imgs/background.jpg);
+    background-size: cover;
+    -webkit-box-shadow: inset 0 0 100px 20px rgba(255, 255, 255, 1);
+}
+
+a, a:hover {
+    color: rgba(203, 67, 103, 1);
+    text-decoration: none;
+}
+
+
+/*a:visited {
+    color: rgba(20, 167, 103, 1);
+    text-decoration: none;
+}*/
+
+#logo {
+    position: absolute;
+    /*display: inline;*/
+    /*text-align: right;*/
+    /*float: right;*/
+    /*right: 0%;
+	top: 15%;*/
+    bottom: 0%;
+    right: 5%;
+    /*max-width: 30%;*/
+    /*max-height: 30%;*/
+    /*margin-left: auto;*/
+    /*margin-right: 33%;*/
+    /*height: auto;
+    width: auto*/
+}
+
+img {
+    max-width: 30%;
+}
+
+#fon {
+    box-shadow: 0px 2px 60px rgba(0, 0, 0, 0.2), 0px 1px rgba(255, 255, 255, 0.3) inset, 0px 10px rgba(255, 255, 255, 0.2) inset, 0px 10px 20px rgba(255, 255, 255, 0.25) inset, 10px -30px 60px rgba(255, 255, 255, 0.3) inset !important;
+    position: relative;
+    display: inline-block;
+    max-width: 63%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.4);
+    max-height: 89%;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    color: #51183f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cointainer .text-muted {
+    margin: 0em, 0;
+}
+
+.footer>.container {
+    position: absolute;
+    text-align: center;
+    /*display: block;*/
+    bottom: 0;
+    width: 100%;
+    height: 10%`;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+left_foooter {
+    position: relative;
+    display: inline;
+    padding: 0em 2em 0em;
+}
+
+#coms {
+    font-family: Arial, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    color: #FE7273;
+    box-shadow: 0px 0px 0px #fff, 0px 0px 0px rgba(0, 0, 0, 0.0) !important;
+    position: relative;
+    margin-top: 25%;
+    margin-left: 0% !important;
+    margin-top: 0% !important;
+    background-color: rgba(255, 255, 255, 0.0) !important;
+    display: table-cell;
+    overflow: hidden;
+    padding: 22% 20%;
+    vertical-align: middle;
+}
